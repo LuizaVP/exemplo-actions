@@ -14,6 +14,7 @@ public class CalculadoraController {
         this.calculadoraService = calculadoraService;
     }
 
+    
     @PostMapping("/divisao/{a}/{b}")
     public ResponseEntity<Double> divisao(
             @PathVariable double a,
