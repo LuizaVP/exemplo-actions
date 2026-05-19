@@ -1,6 +1,6 @@
 package service;
 
-import Service.CalculadoraService;
+import service.CalculadoraService;  // ← minúsculo
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.web.server.ResponseStatusException;
