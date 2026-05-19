@@ -1,6 +1,6 @@
-package Controller;
+package controller;
 
-import Service.CalculadoraService;
+import service.CalculadoraService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
