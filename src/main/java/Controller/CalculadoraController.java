@@ -21,5 +21,7 @@ public class CalculadoraController {
             @PathVariable double b
     ) {
         return ResponseEntity.ok(calculadoraService.dividir(a, b));
+        // testando a pipeline rs
     }
+
 }
